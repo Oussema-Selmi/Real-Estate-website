@@ -1,10 +1,5 @@
-body {
-    margin: 0px;
-    
-}
 
 .bgimg {
-    background-image: url('./sources/Hero.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -15,9 +10,9 @@ body {
     color: white;
 }
 
-header {
+.header {
     backdrop-filter: blur(10px); 
-    background: rgba(255, 255, 255, 0); 
+    background: rgba(0, 0, 0, 0); 
     padding: 20px;
     width: 100%;
     position: fixed;
@@ -28,31 +23,36 @@ header {
     align-items: center;
 }
 
-header img {
+.logo {
     margin-left: 100px;
     
 }
 
-nav ul {
+.list {
     list-style: none;
     margin-right: 100px;
     padding: 0;
     display: flex;
 }
 
-nav ul li {
+.nav_list {
     margin-right: 20px;
     color: white;
 }
 
-h1 {
+.bienvenue {
     font-size: 57px;
+}
+
+.sec_title {
+    font-size: 45px;
+    color: #D80719;
 }
 .sec1 {
     width: 40%;
     margin-left: 10%;
 }
-button {
+.details_but {
     padding: 10px;
     color: white;
     background-color: #D80719    ;
@@ -91,24 +91,9 @@ button {
     justify-content: space-evenly;
 }
 
-.item1:hover .item1{
-    opacity: 0.2;
+.item1:hover {
 
-}
-.item2:hover .item1{
-    opacity: 0.3;
-
-}
-.item3:hover .item1{
-    opacity: 0.3;
-
-}
-.item4:hover .item1{
-    opacity: 0.3;
-
-}
-.item5:hover .item1{
-    opacity: 0.3;
+    opacity: 0.8;
 
 }
 
